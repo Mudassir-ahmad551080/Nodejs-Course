@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        body{
+           background-color: rgb(61, 60, 60);
+         }
+        form{
+            background-color: cyan;
+            color: black;
+            width: 200px;
+            height: 300px;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            display: flex;
+            gap: 12px;
+            border-radius: 10px;
+        }
+        
+        form input{
+            padding: 5px;
+        }
+        form button{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            background-color: lawngreen;
+            color: black;
+            border: none;
+            border-radius: 10%;
+            cursor:pointer;
+        }
+     </style>
+</head>
+<body>
+    <form action="/submit" method="post" >
+        <input type="text" placeholder="Enter your name" name="name">
+        <input type="text" placeholder="Enter your email" name="email">
+        <button>submit</button>
+    </form>
+</body>
+</html>
