@@ -1,0 +1,22 @@
+[
+    {
+        "question":"what language is run in the browser?",
+        "option": ["javascript","python","C++"],
+        "answer":1
+    },
+    {
+        "question":"what html stand for?",
+        "option": ["hyper transfer protocol","hyper text markup language","hypothelimus"],
+        "answer":2
+    },
+    {
+        "question":"what css stand for",
+        "option": ["call section s","candagin style sheet","cascading style sheet"],
+        "answer":3
+    },
+    {
+        "question":"React is the liberary of ",
+        "option": ["java","python","javascript"],
+        "answer":3
+    }
+]

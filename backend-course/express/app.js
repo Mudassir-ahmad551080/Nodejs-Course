@@ -13,8 +13,14 @@ app.get('/',(req,res)=>{
 
 app.post('/submit',(req,res)=>{
     const {name,email}=req.body;
-    console.log(name,email)
-    res.send("Form is submitted")
+    if(name ==  'mudassir' && email == "mudassir@gmail.com"){
+        console.log(`the name is  correct ${name}`)
+        res.send("Form is submitted")
+    }
+    else{
+        res.send("wrong username or password")
+    }
+    
 });
 
 app.use((req,res)=>{
